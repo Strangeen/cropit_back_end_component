@@ -9,7 +9,7 @@ CropitUtil
 
 ### 方法
 
-### 1. String recieveImg(req, parentPath, fileName, rootPath)
+### 1. public static String recieveImg(req, parentPath, fileName, rootPath)
 
 - ### 参数
     req - HttpServletRequest
@@ -23,7 +23,7 @@ CropitUtil
 - ### 返回
     String - 图片存放相对路径（相对网站根目录的绝对路径），如果rootPath为null则返回绝对路径
 
-### 2. String recieveImg(HttpServletRequest req, String paraName, String parentPath, String fileName, String rootPath)
+### 2. public static String recieveImg(HttpServletRequest req, String paraName, String parentPath, String fileName, String rootPath)
 
 - ### 参数
     req - HttpServletRequest
